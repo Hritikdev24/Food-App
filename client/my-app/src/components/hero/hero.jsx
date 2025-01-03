@@ -26,13 +26,7 @@ export function Hero(){
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <div className="carousel-item" data-bs-interval="500">
-    <img src="./images/bannerTwo.jpg" className="d-block w-100" alt="..."/>
-    <div className="carousel-caption d-none d-md-block banner-title">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
+   
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
