@@ -4,7 +4,7 @@ import axios from "axios";
 export const Contextstore = createContext(null);
 
 export function ContextStore({ children }) {
-  const url = "https://project-backend-qy9w.onrender.com";
+  const url = "https://project-backend-mtja.onrender.com";
   const [token, setToken] = useState(localStorage.getItem("token") || "");
   const [menuList, setMenuList] = useState([]);
   const [itemCart, setItemCart] = useState({});
