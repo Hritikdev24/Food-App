@@ -1,0 +1,107 @@
+.navbar {
+  all: unset;
+  background-color: red;
+  padding: 0rem 1rem 0rem 1rem;
+}
+.navbar ul a, .navbar ul .Link {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar ul{
+  gap:4rem
+}
+.navbar ul a:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  color: black;
+}
+.header-title{
+  font-size: 3rem;
+}
+.header-title :hover {
+  cursor: progress;
+  color: blue;
+}
+.nav-right span:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  color: black;
+}
+ 
+.nav-right span {
+  display: inline-block;
+  padding: 1rem;
+  width:4rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+
+.active {
+  color: black;
+  border-bottom: 2px solid white;
+}
+.inActive {
+  color: white;
+}
+.cartItem {
+  position: relative;
+  color: white;
+  font-size: 3rem;
+}
+.cartItem:hover .cartCount {
+  color: white;
+}
+.cartCount {
+  position: absolute;
+  top: -1rem;
+  color: black;
+  left: 1rem;
+}
+.sign{
+  width:10rem;
+}
+
+.navbar img{
+  width:4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.navbar .logout{
+  list-style: none;
+  font-size: 2rem;
+  position: absolute;
+  display: table-column;
+  top:9vh;
+  color:white;
+  z-index:3;
+  padding:1rem;
+  width:25rem;
+  right:0.1rem;
+ background-color: black;
+ border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+ display: none;
+}
+.navbar   .logout li{
+  padding-left: 2rem;
+  margin-top: 1rem;
+
+}
+
+.navbar   .logout li:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+
+}
+.logout.show{
+ display:inline-block;
+}
+
+.logout.hide{
+  display: none;
+}

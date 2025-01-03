@@ -1,0 +1,54 @@
+.login{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+   
+
+}
+.form{
+    width:50rem;
+    padding: 3rem 2rem 3rem 2rem;
+    background: #e43a15;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e65245, #e43a15);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e65245, #e43a15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 5px;
+    transition: all 0.2s;
+    position: absolute;
+    z-index:10;
+    top: -80vh;
+    
+}
+
+.form.active{
+    top:20vh;
+}
+.form:hover{
+transform: scale(1.01);
+cursor: pointer;
+}
+.form label{
+    font-size:2rem;
+    color:white;
+    margin-bottom: 0.5rem;
+
+}
+
+.form .form-title{
+    color: aliceblue;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.form-btn{
+    display: grid;
+ 
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+.form-btn >button {
+    width:18rem;
+   font-size: 1.5rem;
+   padding: 1rem;
+   margin: 1rem;
+}

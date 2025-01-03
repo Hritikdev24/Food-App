@@ -1,0 +1,51 @@
+.cart-item-title{
+    margin-top: 2rem;
+    display:grid;
+        grid-template-columns: repeat(7,1fr);
+        place-items: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+.cart-item-title img{
+    width:6rem;
+    height: 5rem;
+}
+.cart-item{
+    padding:3rem;
+}
+.cart-item-title:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  
+}
+
+.cart-bottom{
+    display: grid;
+    padding: 4rem;
+    grid-template-columns:6fr 6fr;
+    place-items: center;
+
+}
+
+.hritikcart{
+    width:30rem;
+   
+}
+
+.card-info{
+     display: flex;
+       justify-content: space-between;
+     font-size: 1.5rem;
+     border-bottom: 1px solid red;
+     padding: 0.5rem 2rem 0rem 0rem;
+   
+   
+}
+.promo-code{
+ 
+    width: 100%;
+    padding: 2rem;
+}

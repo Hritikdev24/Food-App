@@ -1,0 +1,71 @@
+
+.footer .footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    place-items: center;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding: 1rem;
+    color:white;
+    font-weight: bold;
+}
+
+
+.footer-container ul{
+   list-style-type:none;
+}
+
+.footer-container ul li{
+     text-align: center;
+       font-size: 1.5rem;
+       margin-top: 1rem;
+}
+.footer-container ul li:hover{
+  
+      font-size: 1.6rem;
+       color:lime;
+       cursor: pointer;
+
+}
+.footer-left{
+    border-right: 1px solid lime;
+    height: 100%;
+    padding: 1rem;
+       display: grid;
+    align-items: center;
+    text-align: justify;
+   text-indent: 2rem;
+   font-size: 1.5rem;
+}
+
+.footer-right{
+    height:100%;
+    border-left: 1px solid lime;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: lime;
+    padding-top:2rem;
+}
+
+
+.footer-title{
+    background-color:black;
+    color:red;
+    font-size:3rem;
+    text-align: center;
+    padding: 1rem;
+}
+.footer-left li:hover{
+    color: lime;
+     font-size: ;
+}

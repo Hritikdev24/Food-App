@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+html{
+  font-size: 10px;
+}
+
+body{
+  min-height: 100vh;
+  overflow-x: hidden;
+ 
+}
+
+a{
+  text-decoration:none;
+  color: inherit;
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+  html{
+    font-size: 7px;
+  }
+}
+@media screen and (max-width:499px){
+  html{
+    font-size:5px;
+  }
+}

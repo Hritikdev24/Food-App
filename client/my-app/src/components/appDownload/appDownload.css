@@ -1,0 +1,25 @@
+
+.appDownload img{
+    width:25rem;
+    margin-left: 1rem;
+}
+.appDownload{
+    padding: 4rem;
+}
+
+.appDownload img:hover{
+    transform:scale(1.04);
+    cursor:progress;
+
+}
+
+.download-title{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.download-img{
+    text-align: center;
+    margin-top: 2rem;
+}
