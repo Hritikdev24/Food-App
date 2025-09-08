@@ -13,7 +13,7 @@ export function Hero(){
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="500">
 
-      <img src="./images/bannerOne.jpg" className="d-block w-100" alt="..."/>
+      <img src="./images/bannerTwo.jpg" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block banner-title">
         <h5>Make Your Life Easyyy!</h5>
         <p>Some representative placeholder content for the first slide.</p>
